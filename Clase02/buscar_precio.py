@@ -1,5 +1,5 @@
 def buscar_precio(fruta):
-    f = open('../Data/precios.csv', 'rt')
+    f = open('../../Data/precios.csv', 'rt')
     x=False
    
     for line in f:
