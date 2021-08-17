@@ -29,3 +29,7 @@ costo = costo_camion(nombre_archivo)
 print('Costo total:', costo)
 
 #python camion_commandline.py ../Data/missing.csv
+#Costo total: 30381.15
+
+# D:\unsam\Ejercicios\python-unsam\ejercicios_python\Clase02> python camion_commandline.py ../Data/camion.csv 
+# Costo total: 47671.15

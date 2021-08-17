@@ -8,7 +8,7 @@ def geringoso(cadena):
             else:
                 capadepenapa=capadepenapa+c   
     return capadepenapa
-
+ 
 def dict_geringoso(lista):
     diccionario={}
     for palabra in lista:

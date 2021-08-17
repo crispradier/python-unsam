@@ -15,12 +15,11 @@ def costo_camion(nombre_archivo):
     except:
         print(f'Warning: {nombre_archivo} no es una ruta válida')
 
-#print(costo_camion('../Data/camion.csv'))
-costo = costo_camion('../Data/camion.csv')
-print('Costo total:', costo)
 
-# costo = costo_camion('../Data/camionnn.csv')
-# print('Costo total:', costo)
+costo = costo_camion('../Data/camion.csv') #cuidado, para que funcione hay que ejecutarlo desde Clase02
+print('Costo total:', costo)
+#Costo total: 47671.15
+
 
 '''
 sin csv

@@ -1,7 +1,7 @@
 def buscar_precio(fruta):
-    f = open('../../Data/precios.csv', 'rt')
+    f = open('../Data/precios.csv', 'rt') #cuidado, para que funcione hay que ejecutarlo desde Clase02
     x=False
-   
+    
     for line in f:
         if fruta in line:
             r=line.split(',')
@@ -14,4 +14,6 @@ def buscar_precio(fruta):
     f.close()
 
 buscar_precio('Frambuesa')
+# El precio de un cajon de Frambuesa es: 34.35
 buscar_precio('Kale')
+# Kale no figura en el listado de precios.
