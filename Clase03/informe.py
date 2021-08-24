@@ -35,17 +35,6 @@ def leer_precios(nombre_archivo):
 camion = leer_camion('../Data/fecha_camion.csv') 
 precios= leer_precios('../Data/precios.csv')
 
-# para imprimir los resultados:
-# from pprint import pprint
-# pprint(camion)
-# pprint(precios)
-
-# calculo del costo para versión anterior, con camion como lista de tuplas:
-# costo=0
-# for nombre, cajones, precio in camion:
-#     costo+=cajones*precio
-# print(costo)
-
 valorCamion=0.0
 for s in camion:
         valorCamion+= (s['cajones'])*(s['precio'])
