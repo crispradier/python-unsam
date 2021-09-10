@@ -65,3 +65,8 @@ elif diferencia==0:
     print('El balance es cero.')
 else:
     print('Hubo pérdida.')
+
+# comprension de listas 
+# >>> costo=sum([s['cajones']*s['precio'] for s in camion]) 
+# >>> costo
+# 47671.15
